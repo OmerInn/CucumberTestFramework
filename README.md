@@ -23,7 +23,7 @@ Extent Reports: Cucumber senaryolarından elde edilen raporların oluşturulmas�
 5. WebDriver Yönetimi
 WebDriverManager: WebDriver sürücülerini otomatik olarak yönetmek için WebDriverManager kütüphanesi kullanımı.
 
-PrContactUs.feature: Bu özellik, web sitesine gidip iletişim sayfasını test etmeyi amaçlar. Senaryo, belirli adımları takip ederek iletişim sayfasına gitmeyi, gerekli bilgileri doldurmayı ve bir mesajı göndermeyi içerir. Başarılı bir gönderim sonrasında gelen başarı mesajını doğrulamak da senaryo kapsamındadır.
+ContactUs.feature: Bu özellik, web sitesine gidip iletişim sayfasını test etmeyi amaçlar. Senaryo, belirli adımları takip ederek iletişim sayfasına gitmeyi, gerekli bilgileri doldurmayı ve bir mesajı göndermeyi içerir. Başarılı bir gönderim sonrasında gelen başarı mesajını doğrulamak da senaryo kapsamındadır.
 
 Register.feature: Bu özellik, dinamik bir şekilde kullanıcı hesaplarını oluşturmayı test eder. Senaryo, farklı kullanıcı özelliklerini (email, soyadı, şifre vb.) içeren veri setleriyle çalışarak her bir kullanıcıyı teker teker test eder. Bu sayede kaydedilmiş kullanıcı bilgilerini kullanarak hesap oluşturmanın doğru çalışıp çalışmadığı kontrol edilir.
 
