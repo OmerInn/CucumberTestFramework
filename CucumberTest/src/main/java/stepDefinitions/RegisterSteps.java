@@ -16,6 +16,7 @@ public class RegisterSteps {
     public void navigateToWebsiteRegister() {
         driver = Driver.getDriver();
         registerPage = new RegisterPage(driver);
+        driver.manage().window().maximize();
         Driver.getDriver().get("http://www.automationpractice.pl/index.php");
     }
     @And("click Sign in button")

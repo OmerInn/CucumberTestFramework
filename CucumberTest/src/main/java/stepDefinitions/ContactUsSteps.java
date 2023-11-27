@@ -17,6 +17,7 @@ public class ContactUsSteps {
     public void navigateToWebsiteContactUs() {
         driver = Driver.getDriver();
         contactPage = new ContactUsPage(driver);
+        driver.manage().window().maximize();
         Driver.getDriver().get("http://www.automationpractice.pl/index.php");
     }
     @Given("click on contact us button")

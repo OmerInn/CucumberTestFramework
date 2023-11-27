@@ -16,7 +16,7 @@ public class Driver {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        // Tarayıcı ekranını maksimize et
+        // Ekranı tam ekran yap
         driver.manage().window().maximize();
 
         // Diğer ayarlar (timeout, sayfa yüklenme bekleme süresi, vs.) eklenebilir.

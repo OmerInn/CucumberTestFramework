@@ -3,16 +3,16 @@ Feature: Register Test
   Background:
     Given Navigate to Website Register
     And click Sign in button
-    And  type email "dell49@gmail.com"
+    And  type email "dellpc62@gmail.com"
     And click on Create an Account button
 
   Scenario: Kişi 1
-    And type firstname "omer" and lastname "ozdemir"
+    And type firstname "Omer" and lastname "Tanımaz"
     And type password "omer123"
 
 
   Scenario: Kisi 2
-    And type firstname "asıf" and lastname "mermer"
+    And type firstname "Asıf" and lastname "Mermer"
     And type password "asf123"
   Scenario Outline: Kisi 3
 
@@ -22,4 +22,4 @@ Feature: Register Test
     Examples:
       | isim | soyisim | sifre |
       |Mustafa|Ozdemir |1234   |
-      |Fatih  |Ozdemir | 4567  |
+      |Fatih  |Armağan | 4567  |

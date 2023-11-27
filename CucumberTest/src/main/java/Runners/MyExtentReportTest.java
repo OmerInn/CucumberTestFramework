@@ -32,11 +32,7 @@ public class MyExtentReportTest extends AbstractTestNGCucumberTests {
         extentTest = extentReports.createTest("My Test", "This test is for demonstration purposes.");
         extentTest.log(Status.INFO, "Test is starting...");
 
-        try {
-            throw new Exception("This is a simulated error.");
-        } catch (Exception e) {
-            extentTest.log(Status.FAIL, "Test failed: " + e.getMessage());
-        }
+        extentTest.log(Status.INFO, "This is a simulated error.");
     }
 
     @AfterMethod
